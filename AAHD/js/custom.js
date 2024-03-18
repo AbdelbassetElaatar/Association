@@ -214,56 +214,7 @@ $(function () {
 	});
 
 
-	/* Product Filters
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
-	var swiper = new Swiper('.swiper-Produits-filters', {
-		slidesPerView: 3,
-		slidesPerColumn: 2,
-		spaceBetween: 30,
-		breakpoints: {
-			1024: {
-				slidesPerView: 3,
-				spaceBetween: 30,
-			},
-			768: {
-				slidesPerView: 2,
-				spaceBetween: 30,
-				slidesPerColumn: 1,
-			},
-			640: {
-				slidesPerView: 2,
-				spaceBetween: 20,
-				slidesPerColumn: 1,
-			},
-			480: {
-				slidesPerView: 1,
-				spaceBetween: 10,
-				slidesPerColumn: 1,
-			}
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-			dynamicBullets: true
-		}
-	});
-
-	/* Countdown
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-
-	$('[data-countdown]').each(function () {
-		var $this = $(this),
-			finalDate = $(this).data('countdown');
-		$this.countdown(finalDate, function (event) {
-			var $this = $(this).html(event.strftime(''
-				+ '<div class="time-bar"><span class="time-box">%w</span> <span class="line-b">weeks</span></div> '
-				+ '<div class="time-bar"><span class="time-box">%d</span> <span class="line-b">days</span></div> '
-				+ '<div class="time-bar"><span class="time-box">%H</span> <span class="line-b">hr</span></div> '
-				+ '<div class="time-bar"><span class="time-box">%M</span> <span class="line-b">min</span></div> '
-				+ '<div class="time-bar"><span class="time-box">%S</span> <span class="line-b">sec</span></div>'));
-		});
-	});
 
 	/* Deal Slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
@@ -354,12 +305,6 @@ $(function () {
 		});
 	});
 
-	/* Product slider 
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	// optional
-	$('#blogCarousel').carousel({
-		interval: 5000
-	});
 
 
 });

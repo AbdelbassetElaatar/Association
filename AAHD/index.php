@@ -46,7 +46,7 @@
                      </h1>
                      <p id="Nom-assoc">Association Ait Hammou  <br>
                      pour le developpement durable </p>
-                     <a id="Voir-services" href="#services">Voir nous services</a>                  </div>
+                     <a id="Voir-Objectifs" href="#Objectifs">Voir nous Objectifs</a>                  </div>
                </div>
             </div>
             <div class="carousel-item">
@@ -58,7 +58,7 @@
                      </h1>
                      <p>Association Ait Hammou  <br>
                      pour le developpement durable </p>
-                     <a id="Voir-services" href="#services">Voir nous services</a>
+                     <a id="Voir-Objectifs" href="#Objectifs">Voir tous les Objectifs</a>
                   </div>
                </div>
             </div>
@@ -72,7 +72,7 @@
                   </h1>
                   <p>Association Ait Hammou  <br>
                   pour le developpement durable </p>
-                  <a id="Voir-services" href="#services">Voir nous services</a>
+                  <a id="Voir-Objectifs" href="#Objectifs">Voir nous Objectifs</a>
                   </div>
                </div>
             </div>
@@ -92,7 +92,7 @@
    </section>
    <section>
    <?php
-   include 'service.php'?>
+   include 'Objectif.php'?>
    
    </section>
 

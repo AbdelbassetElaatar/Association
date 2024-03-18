@@ -5,8 +5,8 @@
                <div class="col-md-6 offset-md-3">
                   <ul class="sociel">
                         <li> <a href="www.facebook.com" ><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="https://wa.me/+212660560579"><i class="fa fa-whatsapp"></i></a></li>
-                         <li> <a href="mailto:yoratech.ahba@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                         <li> <a href="https://wa.me/+212664698186"><i class="fa fa-whatsapp"></i></a></li>
+                         <li> <a href="mailto:assaithammou@gmail.com"><i class="fa fa-envelope"></i></a></li>
                   </ul>
                </div>
             </div>
@@ -15,13 +15,13 @@
                   <div class="contact">
                      <h3>contactez-nous</h3>
                      <span>Douar Acht hammou , Entre Outat el Haj et Almis Marmoucha,Province de Boulmane. Maroc<br>
-                     +212 660‑560579<br>yoratech.ahba@gmail.com</span>
+                     +212 664698186<br>assaithammou@gmail.com</span>
                   </div>
                </div>
                
                <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>services</h3>
+                     <h3>Objectifs</h3>
                      <ul class="lik">
                         <li> <a href="#">-Renforcer l'esprit d'initiative et de solidarité</a></li>
                         <li> <a href="#">-Réaliser les projets de développement</a></li>

@@ -2038,6 +2038,7 @@ text-align: center;
 	top: inherit;
 	bottom: 10px;
 }
+
 @media only screen and (max-width: 767px) {
 	.menu-area-main{
 		overflow:hidden;
@@ -2063,7 +2064,7 @@ text-align: center;
 	#Nom-assoc{
 		display: none;
 	}
-	#Voir-services{
+	#Voir-Objectifs{
 		display: none;
 	}
 	}
